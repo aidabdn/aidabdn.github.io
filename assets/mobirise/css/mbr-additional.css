@@ -1303,3 +1303,105 @@ body {
   text-align: left;
   color: #683434;
 }
+.cid-rsaJ5t4MX8 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-rsaJ5t4MX8 .content {
+    text-align: center;
+  }
+  .cid-rsaJ5t4MX8 .content > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rsaJ5t4MX8 .media-wrap {
+    margin-bottom: 1rem;
+  }
+}
+.cid-rsaJ5t4MX8 .media-wrap .mbr-iconfont-logo {
+  font-size: 7.5rem;
+  color: #f36;
+}
+.cid-rsaJ5t4MX8 .media-wrap img {
+  height: 6rem;
+}
+.cid-rsaJ5t4MX8 .mbr-text {
+  color: #8d97ad;
+}
+.cid-rsaJ5t4MX8 .p-title {
+  font-size: 17px;
+}
+.cid-rsaJ5t4MX8 .p-title span {
+  color: #111111;
+}
+.cid-rsaJ5t4MX8 .title-card {
+  font-size: 1.3rem;
+}
+.cid-rsaJ5t4MX8 .social-media ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.cid-rsaJ5t4MX8 .social-media ul li {
+  margin-right: .5rem;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.cid-rsaJ5t4MX8 .footer-menu {
+  margin-bottom: 0;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.cid-rsaJ5t4MX8 .footer-menu__item {
+  font-size: 18px;
+  padding-right: 1.5rem;
+}
+.cid-rsaJ5t4MX8 .footer-menu__item:last-child {
+  padding-right: 0;
+}
+.cid-rsaJ5t4MX8 .copyright {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.cid-rsaJ5t4MX8 .copyright img {
+  margin-right: 10px;
+}
+.cid-rsaJ5t4MX8 .icon-transition span {
+  color: #ffffff;
+  display: flex;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #8d97ad;
+  transition: all 0.3s ease-out 0s;
+  font-size: 14px;
+}
+.cid-rsaJ5t4MX8 .icon-transition span:hover {
+  background-color: #ff4f7b;
+}
+@media (max-width: 767px) {
+  .cid-rsaJ5t4MX8 .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-rsaJ5t4MX8 .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rsaJ5t4MX8 .footer-menu {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+.cid-rsaJ5t4MX8 SPAN {
+  color: #a61a3d;
+}
