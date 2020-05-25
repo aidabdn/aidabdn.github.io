@@ -1105,6 +1105,10 @@ a {
     text-align: center;
   }
 }
+.cid-rZU5ySWD51 .card-text,
+.cid-rZU5ySWD51 .mbr-section-btn {
+  color: #000000;
+}
 .cid-rZTkihi3Je .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
