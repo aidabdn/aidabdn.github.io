@@ -1534,7 +1534,7 @@ a {
 .cid-s1BjT7afvO {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #d999a9;
+  background-color: #cebfaf;
 }
 .cid-s1BjT7afvO H4 {
   color: #ffffff;
@@ -1545,7 +1545,7 @@ a {
 .cid-s1Bde8FGuJ {
   padding-top: 30px;
   padding-bottom: 90px;
-  background-color: #d999a9;
+  background-color: #cebfaf;
 }
 .cid-s1Bde8FGuJ .carousel {
   z-index: 0;
@@ -2018,8 +2018,8 @@ a {
 }
 .cid-s4CvyFS3tR {
   padding-top: 150px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/foto.jpg");
+  padding-bottom: 15px;
+  background-image: url("../../../assets/images/image69.jpg");
 }
 .cid-s4CvyFS3tR H3 {
   color: #000000;
@@ -2033,7 +2033,7 @@ a {
 .cid-s003cen6Qg {
   padding-top: 30px;
   padding-bottom: 75px;
-  background-color: #d9b7ab;
+  background-color: #ffffff;
 }
 .cid-s003cen6Qg .mbr-overlay {
   background-color: #ffffff;
@@ -2058,13 +2058,13 @@ a {
   background-color: #f6f3ee !important;
   padding: 1.2em 1.4em!important;
   color: #000000 !important;
-  border-top: 1px solid #fafafa;
+  border-top: 1px solid #dcd7c9;
 }
 .cid-s003cen6Qg .form-control,
 .cid-s003cen6Qg .field-input {
   padding: 2rem 1.5rem;
   min-height: auto;
-  background-color: #fafafa;
+  background-color: #dcd7c9;
   border-color: #f6f3ee;
   color: #000000;
   transition: 0.4s;
@@ -2125,7 +2125,7 @@ a {
   outline: none;
 }
 .cid-s003cen6Qg .jq-number__spin {
-  background-color: #fafafa;
+  background-color: #dcd7c9;
   border-color: #f6f3ee;
   color: #000000;
   transition: 0.4s;
@@ -2134,7 +2134,7 @@ a {
 }
 .cid-s003cen6Qg .jq-selectbox li,
 .cid-s003cen6Qg .jq-selectbox li {
-  background-color: #fafafa;
+  background-color: #dcd7c9;
   color: #000000;
 }
 .cid-s003cen6Qg .jq-selectbox li:hover,
@@ -2145,8 +2145,8 @@ a {
 .cid-s003cen6Qg .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .cid-s003cen6Qg .jq-number__spin.minus:hover:after,
 .cid-s003cen6Qg .jq-number__spin.plus:hover:after {
-  border-top-color: #fafafa;
-  border-bottom-color: #fafafa;
+  border-top-color: #dcd7c9;
+  border-bottom-color: #dcd7c9;
 }
 .cid-s003cen6Qg .jq-selectbox .jq-selectbox__trigger-arrow,
 .cid-s003cen6Qg .jq-number__spin.minus:after,
