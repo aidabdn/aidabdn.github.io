@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "consciencia.html",
+    "currentPage": "organos-emociones.html",
     "theme": {
       "name": "therapym4",
       "title": "TherapyM4",
@@ -37467,7 +37467,7 @@
         }
       ]
     },
-    "emocio.html": {
+    "organos-emociones.html": {
       "settings": {
         "title": "Relación entre órganos y emociones - Aida Pla",
         "order": 42
