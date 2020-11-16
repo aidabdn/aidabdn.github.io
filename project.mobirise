@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "formaciones.html",
+    "currentPage": "consciencia.html",
     "theme": {
       "name": "therapym4",
       "title": "TherapyM4",
@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 769,
+    "uniqCompNum": 778,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-1.png",
@@ -1737,7 +1737,7 @@
     "contacto.html": {
       "settings": {
         "title": "Contacto - Aida Pla",
-        "order": 44
+        "order": 45
       },
       "components": [
         {
@@ -2150,7 +2150,7 @@
             }
           },
           "_name": "info1",
-          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSignature\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/image69.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-black col-md-12 col-lg-6 align-center\">\n                <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">WELCOME NOTE</h4>\n                <h3 class=\"mbr-section-title mbr-bold mbr-black pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Deseo que lo que has leído en mi web te haya gustado y despertado el interés para empezar a mejorar tu calidad de vida.<div><span style=\"font-size: 2rem;\"><br></span></div><div><span style=\"font-size: 2rem;\">Para agendar una sesión conmigo o para cualquier duda sobre los programas que ofrezco, por favor escríbeme.&nbsp;</span><span style=\"font-size: 2rem;\">Te responderé en un plazo máximo de 48 horas.</span></div><div><span style=\"font-size: 2rem;\"><br></span><span style=\"font-size: 2rem;\">Si prefieres escribirme directamente este es mi correo: info@aidapla.com</span></div><div><span style=\"font-size: 2rem;\"><br></span><span style=\"font-size: 2rem;\">Nos vemos pronto, ¡un abrazo!</span></div></h3>\n                <p class=\"mbr-text pb-4 mbr-black mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet,\n                    consectetur adipiscing elit. Vestibulum in fermentum tellus. Etiam turpis metus, mattis vel\n                    ullamcorper sed, convallis eget tellus.</p>\n                <img class=\"pb-3\" src=\"@PROJECT_PATH@/assets/images/firma-1.png\" alt=\"Mobirise\" mbr-if=\"showSignature\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n\n\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSignature\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/image69.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-black col-md-12 col-lg-6 align-center\">\n                <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">WELCOME NOTE</h4>\n                <h3 class=\"mbr-section-title mbr-bold mbr-black pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Deseo que lo que has leído en mi web te haya gustado y despertado el interés para empezar a mejorar tu calidad de vida.<div><span style=\"font-size: 2rem;\"><br></span></div><div><span style=\"font-size: 2rem;\">Para agendar una sesión conmigo o para cualquier duda por favor rellena este formulario.&nbsp;</span><span style=\"font-size: 2rem;\">Te responderé en un plazo máximo de 48 horas.</span></div><div><span style=\"font-size: 2rem;\"><br></span><span style=\"font-size: 2rem;\">Si prefieres escribirme directamente este es mi correo: info@aidapla.com</span></div><div><span style=\"font-size: 2rem;\"><br></span><span style=\"font-size: 2rem;\">Nos vemos pronto, ¡un abrazo!</span></div></h3>\n                <p class=\"mbr-text pb-4 mbr-black mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet,\n                    consectetur adipiscing elit. Vestibulum in fermentum tellus. Etiam turpis metus, mattis vel\n                    ullamcorper sed, convallis eget tellus.</p>\n                <img class=\"pb-3\" src=\"@PROJECT_PATH@/assets/images/firma-1.png\" alt=\"Mobirise\" mbr-if=\"showSignature\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n\n\n\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s4CvyFS3tR",
           "_anchor": "info1-c9",
           "_protectedParams": [],
@@ -9355,7 +9355,7 @@
     "404.html": {
       "settings": {
         "title": "404",
-        "order": 45
+        "order": 46
       },
       "components": [
         {
@@ -16285,7 +16285,7 @@
     "aviso-legal.html": {
       "settings": {
         "title": "Aviso legal y términos de uso - Aida Pla",
-        "order": 47
+        "order": 48
       },
       "components": [
         {
@@ -16779,7 +16779,7 @@
     "ebook.html": {
       "settings": {
         "title": "Ebook sobre Relaciones Saludables - Aida Pla",
-        "order": 46
+        "order": 47
       },
       "components": [
         {
@@ -34097,7 +34097,7 @@
           },
           "_name": "extContent12",
           "_sourceTheme": "therapym4",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSignature\">\n        <input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/image51-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#eceae4\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10\">\n                <div class=\"card-img pb-3\" mbr-if=\"showIcon\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-quote-left\"></span>\n                </div>\n                <h1 class=\"mbr-section-title mbr-bold mb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Lorem ipsum\n                </h1>\n                <p class=\"mbr-text pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>A continuación encontrarás información sobre terapias complementarias, espiritualidad práctica y física cuántica. ¡Deseo que te sea útil! Y para cualquier pregunta no dudes en <a href=\"contacto.html\" class=\"text-primary\"><b>contactarme</b></a>.&nbsp;</b></p>\n                <h3 class=\"signature mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSignature\" data-app-selector=\".signature\">\n                    Thomas Carlyle\n                </h3>    \n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSignature\">\n        <input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/image51-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#eceae4\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10\">\n                <div class=\"card-img pb-3\" mbr-if=\"showIcon\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-quote-left\"></span>\n                </div>\n                <h1 class=\"mbr-section-title mbr-bold mb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Lorem ipsum\n                </h1>\n                <p class=\"mbr-text pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>A continuación encontrarás información sobre terapias complementarias, espiritualidad práctica y física cuántica. ¡Deseo que te sea útil! Y para cualquier pregunta no dudes en <a href=\"contacto.html\" class=\"text-primary\"><b>contactarme</b></a>.</b></p>\n                <h3 class=\"signature mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSignature\" data-app-selector=\".signature\">\n                    Thomas Carlyle\n                </h3>    \n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "extContent12-jd",
           "_isUserblock": true,
           "_cid": "sdZbSHpW4N",
@@ -34260,7 +34260,7 @@
             }
           },
           "_name": "extFeatures62",
-          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <a href=\"contracturas.html\"><img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image21-1603.jpeg\" alt=\"Mobirise\" title></a>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><a href=\"contracturas.html\" class=\"text-info\"><b>Los 4 tipos de contracturas</b></a></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><b><a href=\"contracturas.html\" class=\"text-black\"><b>¿Sufres dolores de espalda? ¿Quieres saber qué tipos de contracturas musculares hay, cuáles son sus causas y cómo tratarlas?\nLas contracturas musculares o \"nudos\" son contracciones continuadas e involuntarias de un músculo y sus fibras</b></a>&nbsp;</b><b>[<a href=\"contracturas.html\"><b>Leer más...</b></a>]</b></b><br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <a href=\"contracturas.html\"><img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image21-1607.jpeg\" alt=\"Mobirise\" title></a>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><a href=\"contracturas.html\" class=\"text-info\"><b>Los 4 tipos de contracturas</b></a></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><b><a href=\"contracturas.html\" class=\"text-black\"><b>¿Sufres dolores de espalda? ¿Quieres saber qué tipos de contracturas musculares hay, cuáles son sus causas y cómo tratarlas?\nLas contracturas musculares o \"nudos\" son contracciones continuadas e involuntarias de un músculo y sus fibras</b></a>&nbsp;</b><b>[<a href=\"contracturas.html\"><b>Leer más...</b></a>]</b></b><br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
           "_anchor": "extFeatures62-it",
           "_isUserblock": true,
           "_sourceTheme": "therapym4",
@@ -34424,7 +34424,7 @@
             }
           },
           "_name": "extFeatures62",
-          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <a href=\"organos-emociones.html\"><img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image112-3.jpeg\" alt=\"Mobirise\" title></a>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><a href=\"organos-emociones.html\" class=\"text-primary\"><b>Relación entre emociones y órganos</b></a></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"organos-emociones.html\" class=\"text-black text-primary\"><b>¿Conoces de qué manera nuestras emociones afectan a nuestros órganos vitales? Sabemos que las emociones tienen un impacto en nuestro cuerpo físico. Cuerpo, mente y emociones están estrechamente relacionados.&nbsp;</b></a><b>[<a href=\"organos-emociones.html\" class=\"text-primary\"><b>Leer más...</b></a>]</b><br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <a href=\"organos-emociones.html\"><img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image112-4.jpeg\" alt=\"Mobirise\" title></a>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><a href=\"organos-emociones.html\" class=\"text-primary\"><b>Relación entre emociones y órganos</b></a></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"organos-emociones.html\" class=\"text-black text-primary\"><b>¿Conoces de qué manera nuestras emociones afectan a nuestros órganos vitales? Sabemos que las emociones tienen un impacto en nuestro cuerpo físico. Cuerpo, mente y emociones están estrechamente relacionados.&nbsp;</b></a><b>[<a href=\"organos-emociones.html\" class=\"text-primary\"><b>Leer más...</b></a>]</b><br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
           "_anchor": "extFeatures62-j2",
           "_isUserblock": true,
           "_sourceTheme": "therapym4",
@@ -34586,10 +34586,171 @@
               "color": "#232323"
             }
           },
-          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image11-2.jpeg\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21-1.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Cómo vivir sin estrés</b></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><b><a href=\"estres.html\" class=\"text-black\"><b>P</b></a>RÓXIMAMENTE&nbsp;</b></b>🙂<br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image11-2.jpeg\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21-1.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><a href=\"estres.html\" class=\"text-primary\"><b>Cómo vivir sin estrés</b></a></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Vivimos en un mundo donde todo ocurre cada vez más rápido, en la cultura de la inmediatez, con prisas y cambios constantes. Corremos para llegar puntuales al trabajo donde se nos exige rendir al 100%<b><a href=\"estres.html\" class=\"text-black\">&nbsp;</a></b><b>[EN CONSTRUCCIÓN]</b><br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
           "_anchor": "extFeatures62-kv",
           "_isUserblock": true,
           "_cid": "sg7CtecESh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "extFeatures62",
+          "_sourceTheme": "therapym4",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#33b6c1"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000"
+            },
+            ".img-box": {
+              "position": "relative"
+            },
+            ".card-ico span": {
+              "font-size": "96px",
+              "color": "@primaryColor",
+              "padding": "0.6rem",
+              "margin-right": "1.5rem",
+              "border-radius": "8px"
+            },
+            ".card-ico .ico1": {
+              "background-color": "@iconColor1"
+            },
+            ".mbr-iconfont": {
+              "transition": "all 0.3s",
+              "color": "@iconColor !important",
+              "font-size": "(@IconSize * 1rem) !important"
+            },
+            ".card": {
+              "display": "flex",
+              "flex-direction": "row",
+              "max-width": "350px"
+            },
+            ".img1 when (@showImg2)": {
+              "position": "absolute",
+              "top": "0",
+              "& when not (@reverseContent)": {
+                "left": "3rem"
+              },
+              "& when (@reverseContent)": {
+                "right": "3rem"
+              },
+              "z-index": "1"
+            },
+            ".img2 when (@showImg2)": {
+              "position": "absolute",
+              "bottom": "0",
+              "& when (@reverseContent)": {
+                "left": "3rem"
+              },
+              "& when not (@reverseContent)": {
+                "right": "3rem"
+              },
+              "z-index": "2"
+            },
+            "img": {
+              "& when (@showImg2)": {
+                "width": "48%"
+              },
+              "& when not (@showImg2)": {
+                "width": "100%"
+              },
+              "border-radius": "10px",
+              "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)"
+            },
+            "& when (@showImg2)": {
+              "@media (max-width: 992px)": {
+                ".img-box": {
+                  "height": "500px"
+                },
+                "& when not (@reverseContent)": {
+                  ".img1": {
+                    "left": "1rem"
+                  },
+                  ".img2": {
+                    "right": "1rem"
+                  }
+                },
+                "& when (@reverseContent)": {
+                  ".img2": {
+                    "left": "1rem"
+                  },
+                  ".img1": {
+                    "right": "1rem"
+                  }
+                },
+                "img": {
+                  "width": "50%"
+                }
+              },
+              "@media (max-width: 576px)": {
+                "img": {
+                  "width": "60%"
+                },
+                ".img-box": {
+                  "height": "300px"
+                }
+              }
+            },
+            "@media (max-width: 576px)": {
+              ".author-box": {
+                "justify-content": "center"
+              },
+              ".card": {
+                "flex-direction": "column",
+                "align-items": "center",
+                "padding": "1rem 0!important",
+                ".card-ico": {
+                  "margin-bottom": "2rem"
+                },
+                "&:hover": {
+                  "box-shadow": "none",
+                  "transform": "none"
+                }
+              },
+              ".card-ico span": {
+                "margin-right": "0rem"
+              }
+            },
+            ".author-box": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            ".face": {
+              "width": "80px",
+              "height": "80px",
+              "border-radius": "100%",
+              "box-shadow": "none",
+              "margin": "0rem"
+            },
+            ".author": {
+              "padding-left": "2rem",
+              "margin": "auto 0"
+            },
+            "h3, h4": {
+              "margin": "0",
+              "padding": "0"
+            },
+            ".card-title, .mbr-section-subtitle": {
+              "color": "#232323"
+            }
+          },
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"range\" inline title=\"Count List\" name=\"listCount\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#ffffff\" selected condition=\"listCount\">\n        <input type=\"color\" name=\"iconColor1\" title=\"Icons BG Color\" value=\"#4249cc\" selected condition=\"listCount\">\n\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Show Img 2\" name=\"showImg2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12 col-12 align-center img-box\" mbr-class=\"{'order-2': reverseContent}\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/image27-3.jpeg\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/21-1.jpg\" alt=\"Mobirise\" mbr-if=\"showImg2\">\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-5 col-12 py-4 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Superar un duelo es posible</b></h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text align-left mbr-light pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><b><a href=\"estres.html\" class=\"text-black\"><b>P</b></a>RÓXIMAMENTE</b></b><br>\n                </p>\n\n                <div mbr-if=\"listCount > 0\" mbr-list=\"\" mbr-list-grow=\"listCount\">\n\n                    <div class=\"card\">\n                        <div class=\"card-ico\">\n                            <span mbr-icon class=\"mbr-iconfont pt-1 ico1 mobi-mbri-success mobi-mbri\"></span>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Modern Technologies</h4>\n                            <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n                        </div>\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
+          "_anchor": "extFeatures62-ld",
+          "_isUserblock": true,
+          "_cid": "sgdEhRFkTG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -35927,7 +36088,7 @@
           },
           "_name": "extContent6",
           "_sourceTheme": "therapym4",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image35-6.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">02</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Cómo vivir sin estrés</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Vivimos en un mundo donde todo ocurre cada vez más rápido, en la cultura de la inmediatez, prisas, ruido y a menudo estrés. Corremos para llegar puntuales al trabajo donde nos piden rendir al 100%, o bien debemos esforzarnos para aprobar todos los exámenes, también en nuestro ámbito familiar tenemos obligaciones…<br><br>Nos preocupa llegar económicamente a fin de mes, pagar la hipoteca, mantener a los hijos y ahorrar para disfrutar de las tan anheladas vacaciones. A todo eso hay que añadirle que normalmente<b> no dormimos diariamente las horas necesarias, ni pasamos todo el tiempo que nos gustaría con nuestra familia, pareja o amigos</b>. Sobretodo parece que <b>nos falta tiempo para poder estar solos</b>, a veces algo imprescindible para poder reflexionar sobre nuestra vida o simplemente saborearla de forma distinta.\n<br>\n<br>No acostumbramos a darnos permiso para parar, siendo el cuerpo el que finalmente nos obliga a ello, enfermando como consecuencia de no respetar sus necesidades. A veces nuestras obligaciones diarias no nos permiten disfrutar de todo el tiempo libre que desearíamos, pero <b>podemos recurrir a distintas técnicas para relajarnos y cargar pilas</b>. <br><br>Existen varias de ellas, una de las más conocidas es la meditación. Mediante su práctica aprendemos a centrarnos en el presente, a <b>vivir en el aquí y el ahora escuchando nuestro cuerpo y observando nuestra mente</b>. Nos hacemos más conscientes de nuestros pensamientos, simplemente dejándolos fluir sin entretenerse en ninguno.\n<br>\n<br>El yoga, tai chi, chi kung o cualquier otra actividad que nos haga entrar en contacto con nuestro cuerpo, nos permite parar la mente además de mejorar de la postura corporal, mayor flexibilidad, fuerza muscular, coordinación y control de la respiración. Todo deporte que nos guste practicar también nos puede ayudar a reducir el estrés y favorecer el optimismo, ya que <b>cuando hacemos ejercicio nuestro cuerpo segrega endorfinas</b>. Son las llamadas “hormonas de la felicidad” porque producen una sensación de bienestar en nuestro cuerpo y mente.\n<br>\n<br>Podemos elegir otras aficiones como la lectura, pasear, pasar tiempo en la naturaleza, dibujar, quedar con los amigos…lo importante es que disfrutemos y nos permita <b>parar por unos instantes de nuestro día a día</b>.<br><br>Mi experiencia personal: contra el estrés realizar ejercicio físico todos los días, descansar y dormir bien, alimentarme de la forma más saludable posible y energéticamente equilibrarme los chakras, eliminar bloqueos emocionales y realizarme limpiezas energéticas.&nbsp;<br><br>Hacer “nada” para conectar con la Nada misma\n<br>\n<br>En un mundo de prisas e inmediatez debemos permitirnos momentos de pausa y relajación. Vivimos el día a día con un sinfín de obligaciones, compromisos, horarios, prisas, a veces solamente descansando a la hora de ir a dormir. Siendo a veces habitual que nos cueste conciliar el sueño debido al ajetreo que llevamos durante el día, siendo difícil parar la mente por la noche y descansar.\n<br>Apenas nos permitimos saborear el momento presente, ya sea en el trabajo como cuando estamos en casa con nuestra familia, amigos o realizando cualquier actividad. Es hasta fascinante darse cuenta cómo a menudo actuamos de forma automatizada con el \"piloto automático\" puesto, casi sin tomar conciencia de algo tan simple como un olor, sentir el propio cuerpo, observar cómo nos sentimos en un determinado momento, qué pensamientos tenemos, saborear la comida, escuchar el sonido de la lluvia...en definitiva, disfrutar de los pequeños detalles que nos ofrece la vida. No se necesita realizar grandes viajes o lograr metas ambiciosas para sentirnos vivos, al fin y al cabo la vida no se mide tanto por lo que hemos vivido sino más bien por la intensidad con la que la hemos vivido.\n<br>En nuestra vida cotidiana todos tenemos responsabilidades, obligaciones que atender y objetivos por cumplir, pero parece que nos dejamos llevar con demasiada frecuencia por la corriente de toda esa \"vida\" sin vivirla realmente.\n<br>Por eso sería importante concedernos espacios para estar solos con nosotros mismos, momentos para no hacer nada, para darnos permiso para frenar el ritmo cuando así lo sintamos, y todo ello sin culpabilizarnos ni tener la sensación de que estamos perdiendo el tiempo. Porque paradójicamente, ésta sería una manera de valorarlo aún más. El tiempo es oro, por eso hay que saber administrarlo para que no se agote antes de \"tiempo\".&nbsp;<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image35-6.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">03</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Cómo vivir sin estrés</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Vivimos en un mundo donde todo ocurre cada vez más rápido, en la cultura de la inmediatez, con prisas y cambios constantes. Corremos para llegar puntuales al trabajo donde se nos exige rendir al 100%, o bien debemos esforzarnos para aprobar todos los exámenes, y también en nuestro ámbito familiar tenemos obligaciones y responsabilidades…todo ello puede conllevar que suframos períodos de estrés.<br><br>Nos preocupa llegar económicamente a fin de mes, poder pagar la hipoteca, mantener a los hijos, ahorrar para disfrutar de las tan anheladas vacaciones, cumplir objetivos laborales, tratar de mantener buena salud, nuestras relaciones con los demás, entre otros muchos aspectos.<br><br>A todo eso hay que añadirle que normalmente<b> no dormimos diariamente las horas necesarias, ni pasamos todo el tiempo que nos gustaría con nuestra familia, pareja o amigos</b>. Sobretodo parece que <b>nos falta tiempo para poder estar solos</b>, a veces algo imprescindible para poder reflexionar sobre nuestra vida o simplemente saborearla de forma distinta.\n<br>\n<br>Dicen que el estrés es la enfermedad del siglo XXI.&nbsp;<br>No acostumbramos a darnos permiso para parar, siendo el cuerpo el que finalmente nos obliga a ello enfermando como consecuencia de no respetar sus necesidades. A veces nuestras obligaciones diarias no nos permiten disfrutar de todo el tiempo libre que desearíamos, pero <b>podemos recurrir a distintas técnicas para relajarnos y cargar pilas</b>. <br><br>Todos hemos sufrido alguna vez estrés. La causa puede ser debida a múltiples factores, laboral, familiar, de pareja...etc. El problema viene cuando ese estrés perdura demasiado en el tiempo, es entonces cuando puede suponer numerosas consecuencias para nuestra salud.<br><br>Maneras de vencer el estrés:&nbsp;Link video respiración ayurveda para calmar la mente i video frontal-occipital<br><br>Técnicas de relajación, recibir un masaje, shiatsu, reiki, kinesiología para ir a la causa de algún problema emocional, aprender a gestionarlo y desbloquear traumas, miedos, fobias, inseguridades, etc. LNT<br><br>Existen varias de ellas, una de las más conocidas es la meditación. Mediante su práctica aprendemos a centrarnos en el presente, a <b>vivir en el aquí y el ahora escuchando nuestro cuerpo y observando nuestra mente</b>. Nos hacemos más conscientes de nuestros pensamientos, simplemente dejándolos fluir sin entretenerse en ninguno.\n<br>\n<br>El yoga, tai chi, chi kung o cualquier otra actividad que nos haga entrar en contacto con nuestro cuerpo, nos permite parar la mente además de mejorar de la postura corporal, mayor flexibilidad, fuerza muscular, coordinación y control de la respiración. Todo deporte que nos guste practicar también nos puede ayudar a reducir el estrés y favorecer el optimismo, ya que <b>cuando hacemos ejercicio nuestro cuerpo segrega endorfinas</b>. Son las llamadas “hormonas de la felicidad” porque producen una sensación de bienestar en nuestro cuerpo y mente.\n<br>\n<br>Podemos elegir otras aficiones como la lectura, pasear, pasar tiempo en la naturaleza, dibujar, quedar con los amigos…lo importante es que disfrutemos y nos permita <b>parar por unos instantes de nuestro día a día</b>.<br><br>Mi experiencia personal: contra el estrés realizar ejercicio físico todos los días, descansar y dormir bien, alimentarme de la forma más saludable posible y energéticamente equilibrarme los chakras, eliminar bloqueos emocionales y realizarme limpiezas energéticas.&nbsp;<br><br>Hacer “nada” para conectar con la Nada misma\n<br>\n<br>En un mundo de prisas e inmediatez debemos permitirnos momentos de pausa y relajación. Vivimos el día a día con un sinfín de obligaciones, compromisos, horarios, prisas, a veces solamente descansando a la hora de ir a dormir. Siendo a veces habitual que nos cueste conciliar el sueño debido al ajetreo que llevamos durante el día, siendo difícil parar la mente por la noche y descansar.\n<br>Apenas nos permitimos saborear el momento presente, ya sea en el trabajo como cuando estamos en casa con nuestra familia, amigos o realizando cualquier actividad. Es hasta fascinante darse cuenta cómo a menudo actuamos de forma automatizada con el \"piloto automático\" puesto, casi sin tomar conciencia de algo tan simple como un olor, sentir el propio cuerpo, observar cómo nos sentimos en un determinado momento, qué pensamientos tenemos, saborear la comida, escuchar el sonido de la lluvia...en definitiva, disfrutar de los pequeños detalles que nos ofrece la vida. No se necesita realizar grandes viajes o lograr metas ambiciosas para sentirnos vivos, al fin y al cabo la vida no se mide tanto por lo que hemos vivido sino más bien por la intensidad con la que la hemos vivido.\n<br>En nuestra vida cotidiana todos tenemos responsabilidades, obligaciones que atender y objetivos por cumplir, pero parece que nos dejamos llevar con demasiada frecuencia por la corriente de toda esa \"vida\" sin vivirla realmente.\n<br>Por eso sería importante concedernos espacios para estar solos con nosotros mismos, momentos para no hacer nada, para darnos permiso para frenar el ritmo cuando así lo sintamos, y todo ello sin culpabilizarnos ni tener la sensación de que estamos perdiendo el tiempo. Porque paradójicamente, ésta sería una manera de valorarlo aún más. El tiempo es oro, por eso hay que saber administrarlo para que no se agote antes de \"tiempo\".&nbsp;<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_anchor": "extContent6-jj",
           "_isUserblock": true,
           "_cid": "se2yB0MoIq",
@@ -36113,7 +36274,7 @@
           },
           "_name": "extContent5",
           "_sourceTheme": "therapym4",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12\">\n                <div class=\"content-wrapper align-left\">\n                    <h3 class=\"mbr-section-subtitle mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\"><b>Economics </b>/ Distribution</h3>\n                    <h1 class=\"mbr-section-title mbr-semibold mbr-white pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Si sufres estrés y deseas mi ayuda, inscríbete a mi programa <a href=\"programas.html\"><b>MEJORA TU SALUD</b></a>. Recibirás terapia para disminuirlo y además aprenderás ejercicios prácticos que tú mismo podrás aplicarte cuando lo necesites.</h1>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 col-12\">\n                <div class=\"content-wrapper align-left\">\n                    <p class=\"mbr-text mbr-white mbr-regular mbr-white mbr-fonts-style pt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet,\n                        consectetur adipiscing elit. Aliquam tortor purus, suscipit a accumsan quis, blandit a dolor.\n                        Morbi quis purus at ipsum tristique varius.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-info\" href=\"programas.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>PROGRAMA MEJORA TU SALUD</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12\">\n                <div class=\"content-wrapper align-left\">\n                    <h3 class=\"mbr-section-subtitle mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\"><b>Economics </b>/ Distribution</h3>\n                    <h1 class=\"mbr-section-title mbr-semibold mbr-white pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Si sufres estrés inscríbete a mi programa <a href=\"programas.html\"><b>MEJORA TU SALUD</b></a>. Recibirás mi ayuda terapéutica para disminuirlo y además aprenderás ejercicios prácticos que tú misma podrás aplicarte cuando lo necesites.</h1>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 col-12\">\n                <div class=\"content-wrapper align-left\">\n                    <p class=\"mbr-text mbr-white mbr-regular mbr-white mbr-fonts-style pt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet,\n                        consectetur adipiscing elit. Aliquam tortor purus, suscipit a accumsan quis, blandit a dolor.\n                        Morbi quis purus at ipsum tristique varius.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-info\" href=\"programas.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>PROGRAMA MEJORA TU SALUD</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "extContent5-jk",
           "_isUserblock": true,
           "_cid": "se2yMQ5mV2",
@@ -36655,7 +36816,7 @@
             }
           },
           "_name": "content3",
-          "_customHTML": "<section group=\"Content\" class=\"content3\" plugins=\"mobirise-icons2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"range\" inline title=\"Links Col 1\" name=\"links1\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showLink\">\n        <input type=\"range\" inline title=\"Links Col 2\" name=\"links2\" min=\"1\" max=\"6\" step=\"1\" value=\"5\" condition=\"showLink\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-7 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/tci-2.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-12 col-lg-8\">\n\n                <div class=\"content mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">ABOUT ME</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">T.C.I. Terapia Cuántica Integrativa</h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>Terapia que integra un conjunto de conocimientos, técnicas y experiencias&nbsp;con la finalidad de tratar la salud del cuerpo, mente, emociones y energía de la persona. <br><br>Se trabaja a nivel holístico: se contempla la salud como un equilibrio entre la parte física, psico-emocional y energética del ser humano, comprendiendo la interrelación entre si. Con el uso de distintas herramientas terapéuticas se consiguen cambios notables desde la primera sesión. Se combinan los métodos más modernos y actuales con otros tradicionales.<br><br>Sus beneficios son los siguientes:<br></p>\n\n\n                    <div class=\"row justify-content-center\">\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aliviar dolores musculares y mejorar la postura corporal.</b><br></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reforzar el sistema inmunológico.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reducir el estrés, depresión y ansiedad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aumentar la vitalidad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Potenciar la autoestima y seguridad en uno mismo.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Liberarse de adicciones y hábitos nocivos.</b></h5>\n\n\n                            </div>\n\n                        </div>\n\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Desbloquear traumas, miedos, fobias y creencias limitantes.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Equilibrar hemisferios cerebrales, chakras y aura.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Comprender y sanar las lecciones de vidas pasadas.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Ofrecer nuevos recursos para el crecimiento personal.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Conocer el propósito de vida.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"></h5>\n\n\n                            </div>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section group=\"Content\" class=\"content3\" plugins=\"mobirise-icons2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"range\" inline title=\"Links Col 1\" name=\"links1\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showLink\">\n        <input type=\"range\" inline title=\"Links Col 2\" name=\"links2\" min=\"1\" max=\"6\" step=\"1\" value=\"5\" condition=\"showLink\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-7 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/tci-2.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-12 col-lg-8\">\n\n                <div class=\"content mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">ABOUT ME</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">T.C.I. Terapia Cuántica Integrativa</h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Terapia que integra un conjunto de conocimientos, técnicas y experiencias&nbsp;con la finalidad de tratar la salud del cuerpo, mente, emociones y energía de la persona. <br><br>Se trabaja a nivel holístico: se contempla la salud como un equilibrio entre la parte física, psico-emocional y energética del ser humano, comprendiendo la interrelación entre si. Con el uso de distintas herramientas terapéuticas se consiguen cambios notables desde la primera sesión. Se combinan los métodos más modernos y actuales con otros tradicionales.<br><br>Sus beneficios son los siguientes:<br></p>\n\n\n                    <div class=\"row justify-content-center\">\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aliviar dolores musculares y mejorar la postura corporal.</b><br></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reforzar el sistema inmunológico.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reducir el estrés, depresión y ansiedad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aumentar la vitalidad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Potenciar la autoestima y seguridad en uno mismo.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Liberarse de adicciones y hábitos nocivos.</b></h5>\n\n\n                            </div>\n\n                        </div>\n\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Desbloquear traumas, miedos, fobias y creencias limitantes.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Equilibrar hemisferios cerebrales, chakras y aura.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Comprender y sanar las lecciones de vidas pasadas.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Ofrecer nuevos recursos para el crecimiento personal.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Conocer el propósito de vida.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"></h5>\n\n\n                            </div>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "sfLTKBnRZ6",
           "_anchor": "content3-kk",
           "_protectedParams": [],
@@ -38017,7 +38178,7 @@
             }
           },
           "_name": "content3",
-          "_customHTML": "<section group=\"Content\" class=\"content3\" plugins=\"mobirise-icons2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"range\" inline title=\"Links Col 1\" name=\"links1\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showLink\">\n        <input type=\"range\" inline title=\"Links Col 2\" name=\"links2\" min=\"1\" max=\"6\" step=\"1\" value=\"5\" condition=\"showLink\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-7 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/tci-2.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-12 col-lg-8\">\n\n                <div class=\"content mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">ABOUT ME</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">T.C.I. Terapia Cuántica Integrativa a distancia</h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>Terapia que integra un conjunto de conocimientos, técnicas y experiencias&nbsp;con la finalidad de tratar la salud del cuerpo, mente, emociones y energía de la persona. <br><br>Se trabaja a nivel holístico: se contempla la salud como un equilibrio entre la parte física, psico-emocional y energética del ser humano, comprendiendo la interrelación entre si. Con el uso de distintas herramientas terapéuticas se consiguen cambios notables desde la primera sesión. Se combinan los métodos más modernos y actuales con otros tradicionales.<br><br>➡️ Es una terapia que puede realizarse tanto de forma presencial como a distancia, con los mismos buenos resultados en ambos casos.&nbsp;Las sesiones a distancia se realizan online mediante la plataforma Zoom, Skype o videollamada.<br><br>Sus beneficios son los siguientes:<br></p>\n\n\n                    <div class=\"row justify-content-center\">\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aliviar dolores musculares y mejorar la postura corporal.</b><br></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reforzar el sistema inmunológico.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reducir el estrés, depresión y ansiedad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aumentar la vitalidad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Potenciar la autoestima y seguridad en uno mismo.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Liberarse de adicciones y hábitos nocivos.</b></h5>\n\n\n                            </div>\n\n                        </div>\n\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Desbloquear traumas, miedos, fobias y creencias limitantes.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Equilibrar hemisferios cerebrales, chakras y aura.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Comprender y sanar las lecciones de vidas pasadas.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Ofrecer nuevos recursos para el crecimiento personal.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Conocer el propósito de vida.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"></h5>\n\n\n                            </div>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section group=\"Content\" class=\"content3\" plugins=\"mobirise-icons2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"range\" inline title=\"Links Col 1\" name=\"links1\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showLink\">\n        <input type=\"range\" inline title=\"Links Col 2\" name=\"links2\" min=\"1\" max=\"6\" step=\"1\" value=\"5\" condition=\"showLink\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-7 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/tci-2.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-12 col-lg-8\">\n\n                <div class=\"content mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">ABOUT ME</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">T.C.I. Terapia Cuántica Integrativa a distancia</h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Terapia que integra un conjunto de conocimientos, técnicas y experiencias&nbsp;con la finalidad de tratar la salud del cuerpo, mente, emociones y energía de la persona. <br><br>Se trabaja a nivel holístico: se contempla la salud como un equilibrio entre la parte física, psico-emocional y energética del ser humano, comprendiendo la interrelación entre si. Con el uso de distintas herramientas terapéuticas se consiguen cambios notables desde la primera sesión. Se combinan los métodos más modernos y actuales con otros tradicionales.<br><br>➡️ Es una terapia que puede realizarse tanto de forma presencial como a distancia, con los mismos buenos resultados en ambos casos.&nbsp;Las sesiones a distancia se realizan online mediante la plataforma Zoom, Skype o videollamada.<br><br>Sus beneficios son los siguientes:<br></p>\n\n\n                    <div class=\"row justify-content-center\">\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aliviar dolores musculares y mejorar la postura corporal.</b><br></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reforzar el sistema inmunológico.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Reducir el estrés, depresión y ansiedad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Aumentar la vitalidad.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Potenciar la autoestima y seguridad en uno mismo.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links1 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Liberarse de adicciones y hábitos nocivos.</b></h5>\n\n\n                            </div>\n\n                        </div>\n\n                        <div class=\"mbr-black col-md-6 col-lg-6\">\n\n\n                            <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 0\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Desbloquear traumas, miedos, fobias y creencias limitantes.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 1\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Equilibrar hemisferios cerebrales, chakras y aura.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 2\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Comprender y sanar las lecciones de vidas pasadas.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 3\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Ofrecer nuevos recursos para el crecimiento personal.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 4\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"><b>Conocer el propósito de vida.</b></h5>\n\n                                <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links2 > 5\" mbr-theme-style=\"display-7\" data-app-selector=\".link, .link-wrap\"></h5>\n\n\n                            </div>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "sg9uHrT8Rd",
           "_anchor": "content3-l7",
           "_protectedParams": [],
@@ -38573,11 +38734,11 @@
           "_name": "extMenu4",
           "_customHTML": "<section class=\"extMenu4 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe, mobirise-icons\" global always-top position-absolute once=\"menu\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#33b6c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\"><span style=\"font-weight: 600;\">Aida Pla</span></a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish&&!showBrand&&!showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Inicio<br></a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Sobre mí</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Sesiones</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a class=\"text-white dropdown-item dropdown-toggle\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Presenciales</a><div class=\"dropdown-menu dropdown-submenu\"><a class=\"text-white dropdown-item\" href=\"quiromasaje.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Quiromasaje</a><a class=\"text-white dropdown-item\" href=\"shiatsu.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Shiatsu</a><a class=\"text-white dropdown-item\" href=\"drenaje.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Drenaje Linfático</a><a class=\"text-white dropdown-item\" href=\"reflexologia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Reflexología Podal</a><a class=\"text-white dropdown-item\" href=\"anticelulitico.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Masaje Anticelulítico</a><a class=\"text-white dropdown-item\" href=\"reiki.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Reiki</a><a class=\"text-white dropdown-item\" href=\"kinesiologia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kinesiología</a><a class=\"text-white dropdown-item\" href=\"LNT.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">La Nueva Terapia®</a><a class=\"text-white dropdown-item text-primary\" href=\"tci.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">T.C.I.</a></div></div><div class=\"dropdown\"><a class=\"text-white dropdown-item dropdown-toggle\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">A distancia</a><div class=\"dropdown-menu dropdown-submenu\"><a class=\"text-white dropdown-item\" href=\"LNT-distancia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">La Nueva Terapia®</a><a class=\"text-white dropdown-item\" href=\"radiestesia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Radiestesia terapéutica</a><a class=\"text-white dropdown-item text-primary\" href=\"tci-distancia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">T.C.I.</a></div></div></div></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"programas.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Programas</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"formaciones.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Formaciones</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Blog</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item text-primary\" href=\"crecimiento.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Crecimiento personal</a><a class=\"text-white dropdown-item text-primary\" href=\"consciencia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Consciencia y terapias</a></div></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <div class=\"soc-item\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 1\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 2\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 3\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 4\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-googleplus\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 5\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-behance\"></span>\n                </a>\n              </div>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm  btn-white\" href=\"contacto.html\" data-app-placeholder=\"Type Text\">Contacto</a></div>\n      </div>\n    </nav>\n</section>",
           "_cid": "sg9yd6Nwf2",
+          "_anchor": "extMenu4-la",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "extMenu4-la"
+          "_params": {}
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -38644,11 +38805,11 @@
           "_name": "extContent10",
           "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Block Color\" name=\"bgcolor\" value=\"#ffffff\" selected>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 title-col m-auto align-left\" mbr-class=\"{'order-2':reverseContent}\">\n                <div class=\"text-wrap align-left\">\n                    <h2 class=\"mbr-section-title pb-4 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Build Industry</h2>\n                    <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><b>EN CONSTRUCCIÓN</b></p>\n                </div>\n            </div>\n            <div class=\"col-lg-6 img-col\">\n                <a href=\"index.html\"><img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/image33.jpg\" alt=\"Mobirise\" title></a>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "sg9yd7kYv3",
+          "_anchor": "extContent10-lb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "extContent10-lb"
+          "_params": {}
         },
         {
           "alias": false,
@@ -38705,11 +38866,768 @@
           "_isUserblock": true,
           "_sourceTheme": "therapym4",
           "_cid": "sg9yd7DrmD",
+          "_anchor": "footer1-lc",
           "_protectedParams": [],
           "_global": true,
           "_once": false,
-          "_params": {},
-          "_anchor": "footer1-lc"
+          "_params": {}
+        }
+      ]
+    },
+    "duelo.html": {
+      "settings": {
+        "title": "Superar un duelo es posible - Aida Pla",
+        "order": 44
+      },
+      "components": [
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            ".dropdown-item:before": {
+              "font-family": "MobiriseIcons !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "16px",
+              "position": "absolute",
+              "right": "1rem",
+              "top": "30%",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "-webkit-transform": "scale(0, 1)",
+              "transform": "scale(0, 1)",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".nav-item,.nav-link,.navbar-caption": {
+              "font-weight": "normal"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".navbar-buttons when (@showButtons)": {
+              "flex-wrap": "wrap"
+            },
+            "@media (min-width: 992px)": {
+              ".dropdown-item:hover:before": {
+                "-webkit-transform": "scale(1, 1)",
+                "transform": "scale(1, 1)"
+              }
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "width": "auto",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "1rem"
+              },
+              "&:hover": {
+                ".mbr-iconfont:before": {
+                  "-webkit-transform": "scale(0, 1)",
+                  "transform": "scale(0, 1)"
+                }
+              },
+              "&.dropdown-toggle": {
+                "&:before": {
+                  "display": "none"
+                }
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "-webkit-transform": "scale(1, 1)",
+                  "transform": "scale(1, 1)",
+                  "-webkit-transition": "all 0.25s ease-in-out",
+                  "-moz-transition": "all 0.25s ease-in-out",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "none"
+              },
+              "&.opened": {
+                "transition": "all .3s",
+                "background": "@menuBgColor !important"
+              },
+              ".dropdown-item": {
+                "padding": ".235rem 2.5rem .235rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(100vh - @{logoSize}rem - 1rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center",
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center",
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                },
+                ".navbar-brand": {
+                  "-webkit-flex-shrink": "initial",
+                  "flex-shrink": "initial",
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto",
+                  "word-break": "break-word"
+                },
+                ".navbar-toggler": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "-webkit-align-self": "center",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1rem",
+              "color": "#ffffff",
+              "display": "inline-flex",
+              "&:before": {
+                "padding": ".5rem",
+                "border": "2px solid",
+                "border-radius": "100px"
+              }
+            },
+            ".soc-item": {
+              "margin": ".5rem .3rem"
+            },
+            ".icons-menu": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "text-align": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "extMenu4",
+          "_customHTML": "<section class=\"extMenu4 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe, mobirise-icons\" global always-top position-absolute once=\"menu\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#33b6c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\"><span style=\"font-weight: 600;\">Aida Pla</span></a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish&&!showBrand&&!showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Inicio<br></a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Sobre mí</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Sesiones</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a class=\"text-white dropdown-item dropdown-toggle\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Presenciales</a><div class=\"dropdown-menu dropdown-submenu\"><a class=\"text-white dropdown-item\" href=\"quiromasaje.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Quiromasaje</a><a class=\"text-white dropdown-item\" href=\"shiatsu.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Shiatsu</a><a class=\"text-white dropdown-item\" href=\"drenaje.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Drenaje Linfático</a><a class=\"text-white dropdown-item\" href=\"reflexologia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Reflexología Podal</a><a class=\"text-white dropdown-item\" href=\"anticelulitico.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Masaje Anticelulítico</a><a class=\"text-white dropdown-item\" href=\"reiki.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Reiki</a><a class=\"text-white dropdown-item\" href=\"kinesiologia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kinesiología</a><a class=\"text-white dropdown-item\" href=\"LNT.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">La Nueva Terapia®</a><a class=\"text-white dropdown-item text-primary\" href=\"tci.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">T.C.I.</a></div></div><div class=\"dropdown\"><a class=\"text-white dropdown-item dropdown-toggle\" href=\"sobremi.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">A distancia</a><div class=\"dropdown-menu dropdown-submenu\"><a class=\"text-white dropdown-item\" href=\"LNT-distancia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">La Nueva Terapia®</a><a class=\"text-white dropdown-item\" href=\"radiestesia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Radiestesia terapéutica</a><a class=\"text-white dropdown-item text-primary\" href=\"tci-distancia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">T.C.I.</a></div></div></div></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"programas.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Programas</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"formaciones.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Formaciones</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Blog</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item text-primary\" href=\"crecimiento.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Crecimiento personal</a><a class=\"text-white dropdown-item text-primary\" href=\"consciencia.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Consciencia y terapias</a></div></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <div class=\"soc-item\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 1\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 2\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 3\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 4\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-googleplus\"></span>\n                </a>\n              </div>\n              <div class=\"soc-item\" mbr-if=\"iconsAmount > 5\">\n                <a href=\"https://mobirise.com\" target=\"_blank\">\n                  <span mbr-icon class=\"mbr-iconfont socicon socicon-behance\"></span>\n                </a>\n              </div>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm  btn-white\" href=\"contacto.html\" data-app-placeholder=\"Type Text\">Contacto</a></div>\n      </div>\n    </nav>\n</section>",
+          "_cid": "sgdFcWBRfg",
+          "_anchor": "extMenu4-le",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_name": "extContent6",
+          "_sourceTheme": "therapym4",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".container": {
+              "max-width": "1500px"
+            },
+            "img": {
+              "width": "100%",
+              "transition": "5s",
+              "object-fit": "cover",
+              "margin": "auto",
+              "&:hover": {
+                "transform": "scale(1.1)"
+              }
+            },
+            ".row": {
+              "background": "@boxbg"
+            },
+            ".img-col": {
+              "padding": "0",
+              "overflow": "hidden",
+              "text-align": "center",
+              "justify-content": "center",
+              "position": "relative",
+              "max-height": "540px",
+              "margin-bottom": "4rem"
+            },
+            "h2": {
+              "padding": "0",
+              "margin": "0"
+            },
+            ".title-wrap": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".text-col": {
+              "max-width": "700px",
+              "margin": "auto",
+              "padding": "0 4rem 4rem 4rem"
+            },
+            ".mbr-section-btn": {
+              "position": "absolute",
+              "bottom": "0",
+              "right": "0",
+              ".btn": {
+                "margin": "0rem!important",
+                "min-width": "400px",
+                "justify-content": "space-between",
+                ".mbr-iconfont": {
+                  "order": "2"
+                }
+              }
+            },
+            ".number": {
+              "border-top": "2px solid currentColor",
+              "padding-top": "0.4rem",
+              "margin-right": "3rem",
+              "margin-bottom": "0",
+              "margin-top": "0.5rem"
+            },
+            "@media (max-width: 1200px)": {
+              ".row": {
+                "margin": "2rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".text-col": {
+                "padding": "4rem 4rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "min-width": "200px!important",
+                "padding": "0.6rem 0.8rem!important"
+              },
+              ".row": {
+                "margin": "0rem"
+              },
+              ".text-col": {
+                "padding": "2rem 1rem"
+              },
+              ".number": {
+                "margin-right": "2rem"
+              },
+              ".img-col": {
+                "margin-bottom": "3rem"
+              }
+            },
+            "H2": {
+              "color": "#000000"
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            },
+            "H3": {
+              "color": "#33b6c1"
+            }
+          },
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image27-4.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">04</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Superar un duelo es posible</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Cuando nos deja un ser querido, suele ser el momento en el que nos planteamos ciertas cuestiones existenciales. ¿Hacia dónde irá? ¿Qué sentido han tenido todas las experiencias vividas? <br><br>Además del dolor por la pérdida, <b>notamos un vacío en nuestro interior, como si una parte de nosotros mismos ya no estuviera</b>. Recuerdos, ganas de volverlo a ver, de abrazarlo, de expresarle el amor y tristeza que sentimos...Tal vez nos arrepentimos de no haber hecho más o de haber actuado de tal manera, lamentando ciertos comportamientos o incluso tengamos la sensación de habernos quedado temas pendientes. O bien quizás sentimos que hemos hecho todo lo posible y que esté donde esté siempre percibirá nuestro amor incondicional. <br><br>De una forma o de otra, siempre existe un <b>período de duelo que hay que transitar y es sano que así sea</b>. En ciertas culturas el fallecimiento se contempla como el final de un ciclo, aceptando que la muerte como tal no existe y que el alma de la persona puede volver a reencarnarse en próximas vidas. De esta manera, se celebra esta etapa como la continuación de vivencias y experiencias en distintos cuerpos o estados. El duelo en cierto modo suele ser más llevadero y la muerte ya no es percibida como un tema tabú ni existe el miedo a hablar de ello. <br><br>Quizás se pueda percibir la pérdida al mismo tiempo como una ganancia, <b>valorando los aprendizajes y las experiencias que nos ha aportado esa persona</b>, y podamos agradecer el hecho de haber compartido con nosotros un periodo de nuestra vida. Más allá de las creencias propias de cada uno, es importante <b>sentirse en paz con uno mismo cuando se pierde un ser querido. </b>Asimismo buscar soporte en amigos, familiares o profesionales, entendiendo que el duelo se trata de un proceso en el que su duración dependerá en cada caso particular&nbsp;(con las fases de negación, confusión, enfado o ira, dolor o culpa, tristeza, aceptación).<br><br>Sufrí la pérdida de un ser querido muy allegado a mí y lo que me ayudó mucho a superarlo fue la kinesiología y la LNT®. Con sesiones de kinesiología pude sentir energéticamente a esa persona, lo que me ayudó a transitar el duelo porque podía y sigo pudiendo conectarme con ella siempre que lo desee y sentir su inmenso amor incondicional. Por este motivo comprobé que se encontraba perfectamente bien y me di cuenta de que en realidad mi sufrimiento era debido en gran parte a mi egoísmo. <br><br>En mi caso, incluso sintiendo a la otra persona y sabiendo que estaba bien, además comprendiendo que había vivido todo lo que tenía que vivir, seguía sintiendo el dolor fruto de mi pérdida de contacto con ella. Quería que esta persona no se fuera nunca ni me abandonara. Así que entendí que <b>muchas veces nuestro dolor no es tanto por la persona fallecida sino porque sufrimos por nosotros mismos, por habernos quedado sin ella</b>. <br><br>\nGracias a la LNT® pude ir desbloqueando todas esas emociones y liberar el dolor. Hoy en día mi sentimiento es de aceptación, agradecimiento por lo compartido y emoción intensa al recordarla.<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "extContent6-lk",
+          "_isUserblock": true,
+          "_cid": "sgdFkyQ4Yq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            }
+          },
+          "_name": "extFooter10",
+          "_sourceTheme": "therapym4",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global=\"\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline=\"\" type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#c1c1c1\">\n        <input type=\"color\" title=\"Icons Hover Color\" name=\"iconshoverColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsbgColor\" value=\"#efeeee\">\n        <input inline=\"\" type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"5\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\" mbr-list=\"\" mbr-list-grow=\"linksCount\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Home</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/logo1-1.png\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "sgdFcXjibf",
+          "_anchor": "extFooter10-lg",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (min-width: 400px)": {
+              "h2": {
+                "margin-right": "1.5rem",
+                "margin-left": "1.5rem"
+              }
+            },
+            "@media (min-width: 767px)": {
+              "h2": {
+                "margin-right": "3rem",
+                "margin-left": "3rem"
+              }
+            },
+            ".media-container-row": {
+              "-webkit-justify-content": "space-between",
+              "justify-content": "space-between"
+            },
+            ".socicon-bg-facebook": {
+              "color": "#3e5b98"
+            },
+            ".socicon-bg-twitter": {
+              "color": "#4da7de"
+            },
+            ".socicon-bg-googleplus": {
+              "color": "#dd4b39"
+            },
+            ".socicon-bg-vkontakte": {
+              "color": "#5a7fa6"
+            },
+            ".socicon-bg-odnoklassniki": {
+              "color": "#f48420"
+            },
+            ".socicon-bg-pinterest": {
+              "color": "#c92619"
+            },
+            ".socicon-bg-mail": {
+              "color": "#134785"
+            },
+            ".btn-social": {
+              "border": "none !important"
+            },
+            ".btn-social:hover": {
+              "color": "contrast(@primaryColor)",
+              "background": "@primaryColor"
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "44px"
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "font-size": "20px !important"
+              }
+            }
+          },
+          "_name": "extSocialButtons2",
+          "_customHTML": "<section class=\"extSocialButtons\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" plugins=\"SocialLikes,Socicon\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <header>It will share the current page</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Google+\" name=\"google\" checked>\n        <input type=\"checkbox\" title=\"Vkontakte\" name=\"vkontakte\">\n        <input type=\"checkbox\" title=\"Odnoklassniki\" name=\"odnoklassniki\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Mailru\" name=\"mailru\">\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row pt-3\">\n            <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'order-2': reverseContent}\">¡Comparte este artículo en tus redes sociales!</h2>\n            <div>\n                <div class=\"mbr-social-likes\">\n                    <span mbr-if=\"facebook\" class=\"btn btn-social socicon-bg-facebook facebook mx-2\" title=\"Share link on Facebook\">\n                        <i class=\"socicon socicon-facebook\"></i>\n                    </span>\n                    <span mbr-if=\"twitter\" class=\"btn btn-social twitter socicon-bg-twitter mx-2\" title=\"Share link on Twitter\">\n                        <i class=\"socicon socicon-twitter\"></i>\n                    </span>\n                    <span mbr-if=\"google\" class=\"btn btn-social plusone socicon-bg-googleplus mx-2\" title=\"Share link on Google+\">\n                        <i class=\"socicon socicon-googleplus\"></i>\n                    </span>\n                    <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte socicon-bg-vkontakte mx-2\" title=\"Share link on VKontakte\">\n                        <i class=\"socicon socicon-vkontakte\"></i>\n                    </span>\n                    <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki socicon-bg-odnoklassniki mx-2\" title=\"Share link on Odnoklassniki\">\n                        <i class=\"socicon socicon-odnoklassniki\"></i>\n                    </span>\n                    <span mbr-if=\"pinterest\" class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" title=\"Share link on Pinterest\">\n                        <i class=\"socicon socicon-pinterest\"></i>\n                    </span>\n                    <span mbr-if=\"mailru\" class=\"btn btn-social mailru socicon-bg-mail mx-2\" title=\"Share link on Mailru\">\n                        <i class=\"socicon socicon-mail\"></i>\n                    </span>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgdFcXCpSC",
+          "_anchor": "extSocialButtons2-lh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "extContent5",
+          "_sourceTheme": "therapym4",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "justify-content": "space-between",
+              "padding": "0 1rem"
+            },
+            ".container": {
+              "max-width": "1500px"
+            },
+            ".content-wrapper": {
+              "max-width": "800px"
+            },
+            "@media (min-width: 767px)": {
+              ".container": {
+                "padding": "0 4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#efeeee"
+            },
+            ".btn": {
+              "width": "-webkit-fill-available",
+              "margin": "0.4rem!important",
+              "justify-content": "space-between",
+              ".mbr-iconfont": {
+                "order": "2"
+              }
+            },
+            ".pt-5": {
+              "padding-top": "4rem!important"
+            },
+            "@media (max-width: 922px)": {
+              ".align-left": {
+                "text-align": "center"
+              },
+              ".row": {
+                "justify-content": "center",
+                "padding": "0rem"
+              }
+            },
+            "H1": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#eceae4\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12\">\n                <div class=\"content-wrapper align-left\">\n                    <h3 class=\"mbr-section-subtitle mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\"><b>Economics </b>/ Distribution</h3>\n                    <h1 class=\"mbr-section-title mbr-semibold mbr-white pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Si deseas acompañamiento en tu duelo, puedes apuntarte a mi programa <a href=\"programas.html\"><b>EQUILIBRIO INTERIOR</b></a>. Podré ayudarte en tu proceso, desbloqueando emociones y resolviendo tus dudas.&nbsp;</h1>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 col-12\">\n                <div class=\"content-wrapper align-left\">\n                    <p class=\"mbr-text mbr-white mbr-regular mbr-white mbr-fonts-style pt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet,\n                        consectetur adipiscing elit. Aliquam tortor purus, suscipit a accumsan quis, blandit a dolor.\n                        Morbi quis purus at ipsum tristique varius.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-info\" href=\"programas.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>PROGRAMA EQUILIBRIO INTERIOR</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extContent5-ll",
+          "_isUserblock": true,
+          "_cid": "sgdFztFr88",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".first-column": {
+              "display": "inline-flex",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".second-column img": {
+              "object-fit": "cover",
+              "object-position": "center center",
+              "width": "~\"@{imageSize}%\""
+            },
+            ".mbr-list": {
+              "margin": "0",
+              "li:not(:last-child)": {
+                "margin-right": "2.5rem"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".first-column": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "& when not (@reverseContent) and (@showImage)": {
+                  "padding-bottom": "1rem"
+                },
+                "& when (@reverseContent) and (@showImage)": {
+                  "padding-top": "1rem"
+                }
+              },
+              ".second-column": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-list li:not(:last-child)": {
+                "margin-right": "1rem"
+              }
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <input type=\"range\" inline title=\"Items Count\" name=\"itemsCount\" min=\"1\" max=\"6\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\">\n        <input type=\"range\" inline title=\"Image Size\" name=\"imageSize\" min=\"10\" max=\"100\" step=\"1\" value=\"10\" condition=\"showImage\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" condition=\"showImage\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#cccccc\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center mbr-white\">\n            <div class=\"first-column\" mbr-class=\"{'col-lg-6': showImage,\n                             'justify-content-center': !showImage,\n                             'order-2 align-right': reverseContent && showImage}\">\n                <ul mbr-list mbr-list-grow=\"itemsCount\" class=\"mbr-list list-inline align-left\">\n                    <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"><a href=\"aviso-legal.html\"><b>Términos de uso</b></a></li>\n                    <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"><a href=\"aviso-legal.html\"><b>Política de privacidad</b></a></li>\n                    <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"><a href=\"aviso-legal.html\"><b>Aviso legal</b></a></li>\n                    <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"><a href=\"contacto.html\"><b>Contacto</b></a></li>\n                    \n                </ul>\n            </div>\n            <div class=\"col-md-6 second-column\" mbr-if=\"showImage\" mbr-class=\"{'align-right': !reverseContent}\">\n                <div class=\"media-wrap\">\n                    <a href=\"https://mobirise.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo2-1.png\" alt=\"Mobirise\">\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "sgdFcY3Mqn",
+          "_anchor": "footer1-lj",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
