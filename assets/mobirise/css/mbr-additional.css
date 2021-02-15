@@ -1301,7 +1301,7 @@ a {
 .cid-rZU5ySWD51 .card-text,
 .cid-rZU5ySWD51 .mbr-section-btn {
   color: #232323;
-  text-align: left;
+  text-align: center;
 }
 .cid-rZU5ySWD51 .section-text {
   color: #232323;
@@ -1313,6 +1313,7 @@ a {
 .cid-rZU5ySWD51 .card-title,
 .cid-rZU5ySWD51 .card-img {
   color: #232323;
+  text-align: center;
 }
 .cid-s4n2wzUUjr {
   padding-top: 15px;
@@ -46324,11 +46325,11 @@ a {
   justify-content: flex-start;
 }
 .cid-sp50DCHaCv H1 {
-  color: #232323;
+  color: #000000;
 }
 .cid-sp50DCHaCv .mbr-text,
 .cid-sp50DCHaCv .mbr-section-btn {
-  color: #232323;
+  color: #000000;
 }
 @media (min-width: 767px) {
   .cid-sp50DCHaCv .container {
@@ -46339,6 +46340,86 @@ a {
   .cid-sp50DCHaCv .mbr-overlay {
     opacity: 0.7 !important;
   }
+}
+.cid-sp61dZa3vx {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 1500px) {
+  .cid-sp61dZa3vx .container {
+    max-width: 1400px;
+  }
+}
+.cid-sp61dZa3vx img {
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.cid-sp61dZa3vx .link-wrap {
+  display: inline-block;
+  width: fit-content;
+}
+.cid-sp61dZa3vx .link {
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 3px;
+  width: fit-content;
+  color: #33b6c1;
+}
+.cid-sp61dZa3vx .link:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  bottom: -2px;
+  left: 0;
+}
+.cid-sp61dZa3vx .link:hover:before {
+  animation: 2s line;
+}
+@keyframes line {
+  0% {
+    transform: scale(1);
+    transform-origin: right;
+  }
+  25% {
+    transform: scale(0);
+    transform-origin: right;
+  }
+  26% {
+    transform: scale(0);
+    transform-origin: left;
+  }
+  75% {
+    transform: scale(1);
+    transform-origin: left;
+  }
+}
+.cid-sp61dZa3vx .card-wrapper {
+  background-position: center;
+  border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cid-sp61dZa3vx .mbr-text,
+.cid-sp61dZa3vx .link-align {
+  color: #000000;
+  text-align: left;
+}
+.cid-sp61dZa3vx .card-title,
+.cid-sp61dZa3vx .card-box {
+  color: #d58f76;
+}
+.cid-sp61dZa3vx .mbr-section-subtitle,
+.cid-sp61dZa3vx .card-box {
+  color: #33b6c1;
+  text-align: left;
 }
 .cid-sp4TXK3PBv {
   padding-top: 15px;
