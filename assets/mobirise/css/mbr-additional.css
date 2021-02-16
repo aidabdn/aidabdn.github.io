@@ -1301,7 +1301,7 @@ a {
 .cid-rZU5ySWD51 .card-text,
 .cid-rZU5ySWD51 .mbr-section-btn {
   color: #232323;
-  text-align: center;
+  text-align: left;
 }
 .cid-rZU5ySWD51 .section-text {
   color: #232323;
@@ -1309,11 +1309,12 @@ a {
 }
 .cid-rZU5ySWD51 H2 {
   color: #232323;
+  text-align: left;
 }
 .cid-rZU5ySWD51 .card-title,
 .cid-rZU5ySWD51 .card-img {
   color: #232323;
-  text-align: center;
+  text-align: left;
 }
 .cid-s4n2wzUUjr {
   padding-top: 15px;
