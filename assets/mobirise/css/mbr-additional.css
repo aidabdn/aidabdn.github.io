@@ -2317,7 +2317,7 @@ a {
 }
 .cid-svS6Ik6lvJ {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 @media (min-width: 1500px) {
@@ -2392,6 +2392,17 @@ a {
 .cid-svS6Ik6lvJ .mbr-section-subtitle,
 .cid-svS6Ik6lvJ .card-box {
   color: #d58f76;
+}
+.cid-sxSAe3SaYU {
+  padding-top: 15px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-sxSAe3SaYU H2 {
+  color: #000000;
+}
+.cid-sxSAe3SaYU H1 {
+  color: #000000;
 }
 .cid-srrzodZ7JG {
   padding-top: 30px;
